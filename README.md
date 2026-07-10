@@ -105,26 +105,7 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 	zhihu_username:     username
 	facebook_username:  username
 	github_username:    username
-	# weibo_username:   username
-	
-### Friends
-
-好友链接部分。这会在全部页面显示。
-
-设置是在 `_config.yml`文件里面的`Friends`那块，自己加吧。
-
-```
-# Friends
-friends: [
-    {
-        title: "BY Blog",
-        href: "https://qiubaiying.github.io/"
-    },
-    {
-        title: "Apple",
-        href: "https://apple.com/"
-    }
-]
+	# weibo_username:   username	
 ```
 
 
@@ -195,24 +176,6 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“周楚雯的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
-
-### 关于收到"Page Build Warning"的 Email
-
-由于jekyll升级到3.0.x,对原来的 pygments 代码高亮不再支持，现只支持一种-rouge，所以你需要在 `_config.yml`文件中修改`highlighter: rouge`.另外还需要在`_config.yml`文件中加上`gems: [jekyll-paginate]`.
-
-同时,你需要更新你的本地 jekyll 环境.
-
-使用`jekyll server`的同学需要这样：
-
-1. `gem update jekyll` # 更新jekyll
-2. `gem update github-pages` #更新依赖的包
-
-使用`bundle exec jekyll server`的同学在更新 jekyll 后，需要输入`bundle update`来更新依赖的包.
-
-> Note：
-> 可以使用 `jekyll -s` 命令在本地实时配置博客，提高效率。详见 [Jekyll.com](http://jekyllcn.com/)
-
-参考文档：[using jekyll with pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Upgrading from 2.x to 3.x](http://jekyllrb.com/docs/upgrading/2-to-3/)
 
 
 ## 致谢
