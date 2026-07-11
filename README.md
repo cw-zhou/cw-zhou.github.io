@@ -1,7 +1,7 @@
 博客的搭建教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 以及https://github.com/qiubaiying/qiubaiying.github.io
 
 >
-### [查看博客戳这里🐈‍⬛](http://zhou155166.github.io)
+### [查看博客戳这里🐈‍⬛](http://cw-zhou.github.io)
 
 
 ## 使用
@@ -29,12 +29,12 @@
 
 ```
 # Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: 周楚雯的博客 | BY Blog		# SEO 标题
+title: My Blog                    # 你的博客网站标题
+SEOTitle: 周的博客 | MY Blog		# SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: zhou155166     # 你的github账号
+github_username: cw-zhou     # 你的github账号
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -173,7 +173,7 @@ ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名
 
 ### SEO Title
 
-我的博客标题是 **“BY Blog”** 但是我想要在搜索的时候显示 **“周楚雯的博客 | BY Blog”** ，这个就需要 SEO Title 来定义了。
+我的博客标题是 **“My Blog”** 但是我想要在搜索的时候显示 **“周的博客 | MY Blog”** ，这个就需要 SEO Title 来定义了。
 
 其实这个 SEO Title 就是定义了<head><title>标题</title></head>这个里面的东西和多说分享的标题，你可以自行修改的。
 
